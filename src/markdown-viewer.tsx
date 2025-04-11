@@ -2,7 +2,7 @@ import { useDocChange, useEditor } from "prosekit/react";
 import { EditorExtension } from "./extension";
 import { useCallback, useState } from "react";
 import { getMarkdownContent } from "./markdown/markdownContent";
-import { CopyBlock } from "react-code-blocks";
+import { CodeBlock } from "react-code-blocks";
 
 export default function MarkdownViewer() {
   const editor = useEditor<EditorExtension>();
@@ -18,7 +18,7 @@ export default function MarkdownViewer() {
 
   return (
     <div>
-      <CopyBlock text={markdown} language={"markdown"} showLineNumbers={true} />
+      <CodeBlock text={markdown} language={"markdown"} showLineNumbers={true} />
     </div>
   );
 }
