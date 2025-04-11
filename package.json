@@ -11,6 +11,7 @@
   "dependencies": {
     "prosekit": "^0.12.1",
     "react": "^19.1.0",
+    "react-code-blocks": "^0.1.6",
     "react-dom": "^19.1.0",
     "rehype-parse": "^9.0.1",
     "rehype-remark": "^10.0.1",
